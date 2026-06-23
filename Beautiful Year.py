@@ -1,0 +1,9 @@
+n=int(input())
+found=0
+while(found==0):
+    if(len(set(str(n+1)))==len(str(n+1))):
+        found=1
+        print(n+1)
+        break
+    else:
+        n+=1
